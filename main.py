@@ -17,14 +17,8 @@ if __name__ == "__main__":
     top_sorted = sorted(valid_data, key=lambda x: float(x[profit_dict_key]), reverse=True)[:20]
 
 
-    print(f'''
-    raw data length: {len(raw_data)}
-    valid data length: {len(valid_data)}
-
-
-    top 20 companies by profit:
-    ---------------------------
-    ''')
+    print(len(raw_data))
+    print(len(valid_data))
     pprint.pprint(top_sorted, indent=1)
 
 
