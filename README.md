@@ -39,7 +39,7 @@ I then sorted the filtered data by profit from highest to lowest using the sorte
 
 eg:
 ```python
-top_sorted = sorted(valid_data, key=lambda x: x[profit_dict_key], reverse=True)[:20]
+top_sorted = sorted(valid_data, key=lambda x: float(x[profit_dict_key]), reverse=True)[:20]
 ```
 printed output of `top_sorted` data is 25131
 
