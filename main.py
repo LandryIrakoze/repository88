@@ -14,7 +14,7 @@ if __name__ == "__main__":
     valid_data = list(filter(lambda x: is_float(x[profit_dict_key]) == True, raw_data))
     
     # top 20
-    top_sorted = sorted(valid_data, key=lambda x: x[profit_dict_key], reverse=True)[:20]
+    top_sorted = sorted(valid_data, key=lambda x: float(x[profit_dict_key]), reverse=True)[:20]
 
 
     print(f'''
