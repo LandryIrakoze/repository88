@@ -1,4 +1,4 @@
-# Highest Profit
+# Challenge: Highest-Profit
 
 ## General JSON Structure
 
